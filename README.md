@@ -1,3 +1,8 @@
+END OF THIS SYSTEM LIFE : 
+========
+
+[USE OUR NEW MIGRATION SYSTEM](https://github.com/masterking32/WoWMigration)
+
 Character Migration Tool
 ========
 
@@ -26,6 +31,19 @@ Import SQL files to your databases, Inside "SQL+Core's Commit".
 Config file "core/init.php" and "_transfer/t_config.php"
 
 In your database Table, 'account_transfer_blacklist' you can edit or add some servers to your transfer black list.
+
+How to Install Addon
+========
+
+Download chardump.zip & extract it in your wow game folder. It should looks like ( D:\wotlk\Interface\AddOns\chardump )
+
+Login in game with account, and enable addon.
+
+While in game, simply write in chat /chardump   --> It will generate your character dump file.
+
+When the process is done. Chardump is located in your wow folder D:\wotlk\WTF\Account\YourAccount\SavedVariables\chardump.lua
+
+Go on Migration website, write account details and upload Chardump.lua file ---> DONE!
 
 What is new?
 ========
